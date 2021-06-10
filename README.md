@@ -1,12 +1,18 @@
-# Gilbert Form: web-component for Gilbert Wordpress Plugin
+# Gilbert Wordpress Plugin
 
 Composant web basé sur Vue 3 et Tailwindcss.
-Une fois buildé, déplacer le dossier "dist" dans WordPress, précisemment dans le fichier du plugin.
 
-## Build command
+## Marche à suivre
+
+1. Builder l'app avec la commande:
+
 ```
 yarn build --target wc --name gilbert-plugin 'src/App.vue'
 ```
+
+2. Remplacer le dossier dist dans le WordPress (local ou prod).
+
+3. (Si première fois) importez le dossier wp-plugin (comprenant /plugins, app.js, ga.js et index.php) dans le plugin en question sur WordPress.
 
 ## Lancer en local
 ```
