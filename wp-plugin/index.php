@@ -15,7 +15,6 @@
   wp_enqueue_script('gilbert-form', plugin_dir_url(__FILE__) . 'dist/gilbert-plugin.js');
 
   function pluginFunction() {
-    $randomId = uniqid();
     echo "<div id='instanceForm'></div>";
   };
 
