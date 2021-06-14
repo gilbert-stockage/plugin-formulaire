@@ -451,6 +451,7 @@ export default {
 
   .text-price {
     font-size: 24px!important;
+    font-weight: 600;
   }
 
   .text-base-lg {
