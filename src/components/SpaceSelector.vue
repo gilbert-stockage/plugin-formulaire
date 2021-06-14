@@ -39,7 +39,7 @@
       </div>
       <div
         class="flex flex-col md:flex-row items-center text-gilbert bg-gilbert-light mx-4 md:mx-auto p-4 rounded-lg"
-        style="max-width: 970px;"
+        style="max-width: 850px;"
       >
         <img
           :src="getImageSrc('pig')"

@@ -396,7 +396,7 @@ export default {
   }
 
   .text-gilbert {
-    color: #407f7f;
+    color: #18404B;
   }
 
   .border-gilbert {
@@ -420,6 +420,8 @@ export default {
 
   .text-titre {
     font-size: 40px;
+    padding-bottom: 20px;
+    color: #407F7F;
   }
 
   @media (max-width: 768px) {
@@ -430,7 +432,7 @@ export default {
 
   .text-base {
     font-size: 18px!important;
-    line-height: 1.42;
+    line-height: 1.2;
     font-weight: 400;
   }
   .text-reassurance {

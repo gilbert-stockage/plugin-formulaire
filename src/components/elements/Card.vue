@@ -24,7 +24,7 @@
     <div class="flex flex-col justify-between h-full">
       <h2
         v-if="content.title"
-        class="text-card-title font-semibold mb-2"
+        class="text-card-title font-medium mb-2"
         v-html="content.title"
       />
       <p
@@ -40,7 +40,7 @@
       />
       <div
         v-if="content.footer"
-        class="flex flex-col lg:flex-row items-center justify-between mt-8"
+        class="flex flex-col lg:flex-row items-center justify-between mt-4"
       >
         <div
           v-if="content.footer.price"
