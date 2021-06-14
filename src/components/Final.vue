@@ -20,7 +20,7 @@
     </div>
     <div
       class="flex items-center mx-auto text-gilbert bg-gilbert-light px-4 py-3 rounded-lg"
-      style="max-width: 750px;"
+      style="max-width: 970px;"
     >
       <p class="text-base">
         <span class="font-semibold">🔐 Réservez votre espace de stockage dès maintenant pour verrouiller votre tarif personnalisé !</span><br>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="Plugin-Gilbert-Main relative h-full flex flex-col bg-white mt-8"
+    class="Plugin-Gilbert-Main relative h-full flex flex-col bg-white mt-4"
     style="min-height: 100vh;"
   >
     <div
@@ -24,7 +24,7 @@
           class="CurrentStep flex-grow w-full overflow-hidden z-40 mb-32 md:mb-16"
           :class="computedTransition"
         >
-          <header class="text-titre text-gilbert mx-2 mt-4 mb-6 text-center font-semibold">
+          <header class="text-titre text-gilbert mx-2 mt-4 text-center font-semibold">
             {{ getCurrentStepTitle }}
           </header>
           <div
@@ -434,7 +434,8 @@ export default {
     font-weight: 400;
   }
   .text-reassurance {
-    font-size: 14px!important;
+    font-size: 16px!important;
+    line-height: 1.2;
   }
 
   .text-base-lg {

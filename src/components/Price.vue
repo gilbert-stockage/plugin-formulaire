@@ -9,7 +9,7 @@
         >
       </div>
       <div
-        class="mb-4"
+        class=""
       >
         <h2 
           v-if="getPriceModel.price"

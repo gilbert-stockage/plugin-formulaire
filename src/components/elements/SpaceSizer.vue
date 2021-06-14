@@ -30,7 +30,7 @@
     </div>
     <div
       class="flex items-center mx-auto text-gilbert bg-gilbert-light p-4 rounded-lg mb-8"
-      style="max-width: 750px;"
+      style="max-width: 970px;"
     >
       <p>
         <span class="font-semibold">Pas de panique !</span> Si l’estimation est erronée, le tarif que nous allons vous proposer pourra être ajusté à la hausse ou à la baisse en fonction de votre volume réel de stockage.<br><br>Si vous souhaitez obtenir une estimation plus précise, calculez votre volume en faisant la liste de vos meubles et affaires à stocker.

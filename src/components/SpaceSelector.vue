@@ -39,12 +39,12 @@
       </div>
       <div
         class="flex flex-col md:flex-row items-center text-gilbert bg-gilbert-light mx-4 md:mx-auto p-4 rounded-lg"
-        style="max-width: 750px;"
+        style="max-width: 970px;"
       >
         <img
           :src="getImageSrc('pig')"
           alt="un doute sur votre espace"
-          class="w-16 mb-4 md:mr-4"
+          class="w-16 md:mr-4"
         >
         <p class="text-reassurance text-center md:text-left">
           <span class="font-semibold">Vous avez un doute sur l’espace dont vous avez besoin ? </span>
