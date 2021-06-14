@@ -122,7 +122,7 @@ export default {
         title: "Avez-vous besoin d'une assurance supplémentaire?"
       },{
         component: 'Form',
-        title: "Votre devis est prêt, recevez-le par e-mail immédiatement:"
+        title: "Votre devis est prêt, recevez-le par e-mail immédiatement :"
       },{
         component: Final,
         title: "Votre devis personnalisé"
