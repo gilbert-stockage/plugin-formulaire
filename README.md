@@ -7,7 +7,7 @@ Composant web basé sur Vue 3 et Tailwindcss.
 1. Builder l'app avec la commande:
 
 ```
-npm run build --target wc --name gilbert-plugin 'src/App.vue'
+yarn build --target wc --name gilbert-plugin 'src/App.vue'
 ```
 
 2. Remplacer le dossier dist dans le WordPress (local ou prod).
@@ -16,7 +16,7 @@ npm run build --target wc --name gilbert-plugin 'src/App.vue'
 
 ## Lancer en local
 ```
-npm run install && npm run dev
+yarn install && yarn dev
 ```
 
 ### Vue.config.js
@@ -26,7 +26,7 @@ La destination du build "dist" est dans ce dossier. Mais si vous avez une instan
 Par exemple:
 ```
 module.exports = {
-  outputDir: './dist',
+  outputDir: '../../../../../../Applications/MAMP/htdocs/wordpress/wp-content/plugins/gilbert-plugin/dist',
 }
 ```
 
