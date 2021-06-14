@@ -1,9 +1,18 @@
 <template>
-  <div class="Plugin-Gilbert-Main relative h-full flex flex-col bg-white mt-8" style="min-height: 100vh;">
-    <div v-if="isLoading" class="Plugin-Gilbert-Main-Loading flex flex-col items-center justify-center">
+  <div
+    class="Plugin-Gilbert-Main relative h-full flex flex-col bg-white mt-8"
+    style="min-height: 100vh;"
+  >
+    <div
+      v-if="isLoading"
+      class="Plugin-Gilbert-Main-Loading flex flex-col items-center justify-center"
+    >
       <Loading />
     </div>
-    <div v-else class="relative h-full flex flex-col">
+    <div
+      v-else
+      class="relative h-full flex flex-col"
+    >
       <div
         v-for="step, stepIndex in steps"
         :key="stepIndex"
@@ -24,7 +33,7 @@
           >
             <component
               :is="getCurrentStep.component"
-              :isCalculatorDisplayed="isCalculator"
+              :is-calculator-displayed="isCalculator"
               @displayCalculator="isCalculator = !isCalculator"
               @nextCalculatorStep="updateCalculatorStep"
             />
@@ -177,6 +186,49 @@ export default {
       return this.steps[this.currentStep - 1]
     }
   },
+  watch: {
+    getForm: {
+      deep: true,
+      immediate: true,
+      handler(o, n) {
+        if (n) {
+          switch (this.currentStep) {
+            case 1:
+              if (!this.isCalculator) {
+                this.nextStep()
+              }
+              return;
+            case 3:
+              if (n.helpNeeded !== null) {
+                this.nextStep()
+              }
+              return;
+            case 4:
+              if (n.transport !== null) {
+                this.nextStep()
+              }
+              return;
+            case 5:
+              if (n.insurance !== null) {
+                this.nextStep()
+              }
+              return;
+            default:
+              break;
+          }
+        }
+      }
+    }
+  },
+  mounted() {
+    // window.location.href = window.location.href + '?question=' + this.currentStep
+    if (ga) {
+      ga('send', 'event', 'Lancement du formulaire');
+    }
+    setTimeout(() => {
+      this.isLoading = false
+    }, 1250);
+  },
   methods: {
     updateCalculatorStep(value) {
       // reset spaceSelector when option is taken
@@ -282,49 +334,6 @@ export default {
         properties: data.properties,
         email: this.getForm.mail
       }))
-    }
-  },
-  mounted() {
-    // window.location.href = window.location.href + '?question=' + this.currentStep
-    if (ga) {
-      ga('send', 'event', 'Lancement du formulaire');
-    }
-    setTimeout(() => {
-      this.isLoading = false
-    }, 1250);
-  },
-  watch: {
-    getForm: {
-      deep: true,
-      immediate: true,
-      handler(o, n) {
-        if (n) {
-          switch (this.currentStep) {
-            case 1:
-              if (!this.isCalculator) {
-                this.nextStep()
-              }
-              return;
-            case 3:
-              if (n.helpNeeded !== null) {
-                this.nextStep()
-              }
-              return;
-            case 4:
-              if (n.transport !== null) {
-                this.nextStep()
-              }
-              return;
-            case 5:
-              if (n.insurance !== null) {
-                this.nextStep()
-              }
-              return;
-            default:
-              break;
-          }
-        }
-      }
     }
   }
 }
