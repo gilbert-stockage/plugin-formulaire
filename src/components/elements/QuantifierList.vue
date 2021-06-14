@@ -8,7 +8,7 @@
         v-for="step, stepIndex in getOptions"
         :key="stepIndex"
         class="btn w-full text-md px-8 py-1 md:p-2 rounded focus:outline-none mb-2 md:mb-0"
-        :class="calculatorCurrentStep === stepIndex ? 'btn-gilbert text-white' : 'btn-gilbert-outline text-gilbert'"
+        :class="calculatorCurrentStep === stepIndex ? 'btn-gilbert text-white' : 'btn-gilbert-outline text-bouton'"
         @click="calculatorCurrentStep = stepIndex"
       >
         {{ stepIndex }}

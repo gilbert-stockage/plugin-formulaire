@@ -1,7 +1,7 @@
 <template>
   <div class="Plugin-Gilbert-Transport mx-auto">
     <header>
-      <p class="text-center font-semibold text-sm md:text-base text-gilbert mb-8 mx-4 md:mx-0">
+      <p class="text-center font-regular text-sm md:text-base text-gilbert mb-8 mx-4 md:mx-0">
         Notre entrepôt ultra-sécurisé se situe à Evry (91) pour vous proposer une offre de stockage à tarif très compétitif.
       </p>
     </header>

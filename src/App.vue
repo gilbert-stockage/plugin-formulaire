@@ -28,7 +28,7 @@
             {{ getCurrentStepTitle }}
           </header>
           <div
-            class="Step--content w-full flex items-center justify-between flex-grow mt-8 mb-8"
+            class="Step--content w-full flex items-center justify-between flex-grow mb-8"
             style="height: calc(100% - 100px)"
           >
             <component
@@ -62,7 +62,7 @@
         <div class="col-span-2 flex justify-end">
           <button
             v-if="!isLoading"
-            class="btn btn-gilbert text-bouton lg:text-lg px-2 py-1 md:py-2 md:px-8 rounded text-white focus:outline-none"
+            class="btn btn-gilbert text-gilbert lg:text-lg px-2 py-1 md:py-2 md:px-8 rounded text-white focus:outline-none"
             :disabled="isDisabled"
             @click="nextStep"
           >
@@ -400,7 +400,11 @@ export default {
   }
 
   .text-bouton {
-    color: #407F7F;
+    color: #407f7f;
+  }
+
+  .text-open {
+    font-family: Open Sans,sans-serif;
 }
 
   .border-gilbert {

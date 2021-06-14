@@ -66,7 +66,7 @@
         >
           <button
             class="btn w-full text-base font-medium py-3 px-4 rounded focus:outline-none overflow-hidden"
-            :class="[{ 'w-full' : !content.footer.price }, isSelected ? 'btn-gilbert text-white' : 'btn-gilbert-outline text-gilbert']"
+            :class="[{ 'w-full' : !content.footer.price }, isSelected ? 'btn-gilbert text-white' : 'btn-gilbert-outline text-bouton']"
             @click="getButtonAction"
           >
             {{ getButtonTitle }}

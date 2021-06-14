@@ -39,7 +39,7 @@
       </div>
       <div class="col-span-2 order-3">
         <div
-          class="text-sm bg-gilbert-light px-4 py-6 rounded-lg mb-4"
+          class="text-sm text-open bg-gilbert-light px-4 py-6 rounded-lg mb-4"
           v-html="commit" 
         />
         <div class="border border-gray-200 rounded-lg p-4 w-full">
@@ -48,7 +48,7 @@
             alt="Google"
             class="w-32 mx-auto mb-4"
           >
-          <p class="text-sm font-semibold text-center">
+          <p class="text-sm text-open font-semibold text-center">
             Basé sur 30 avis.
           </p>
         </div>
@@ -64,10 +64,10 @@ export default {
   data() {
     return {
       comment: {
-        description: '« Ayant déménagée dans un nouvel appartement, Gilbert me permet de conserver mes meubles et affaires de famille dont je n\'ai plus besoin mais que je souhaite garder. Service parfaitement adapté. »',
+        description: '« Ayant déménagé dans un nouvel appartement, Gilbert me permet de conserver mes meubles et affaires de famille dont je n\'ai plus besoin mais que je souhaite garder. Service parfaitement adapté. »',
         title: 'Stella déménageait et voulait stocker une partie de ses affaires'
       },
-      commit: "√ L’engagement Gilbert :<br><br>Vos données personnelles ne seront en aucun cas  communiquées à des tiers.<br><br>Elles ne nous servent qu’à  établir votre devis personnalisé et à vous le transmettre. ",
+      commit: "✔️ L’engagement Gilbert :<br><br>Vos données personnelles ne seront en aucun cas  communiquées à des tiers.<br><br>Elles ne nous servent qu’à  établir votre devis personnalisé et à vous le transmettre. ",
       options: [{
         label: 'Votre prénom :',
         model: 'firstName'
