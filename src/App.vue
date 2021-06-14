@@ -28,7 +28,7 @@
             {{ getCurrentStepTitle }}
           </header>
           <div
-            class="Step--content w-full flex items-center justify-between flex-grow mb-8"
+            class="Step--content w-full flex items-center justify-between flex-grow mt-8 mb-8"
             style="height: calc(100% - 100px)"
           >
             <component
@@ -62,7 +62,7 @@
         <div class="col-span-2 flex justify-end">
           <button
             v-if="!isLoading"
-            class="btn btn-gilbert text-base lg:text-lg px-2 py-1 md:py-2 md:px-8 rounded text-white focus:outline-none"
+            class="btn btn-bouton text-base lg:text-lg px-2 py-1 md:py-2 md:px-8 rounded text-white focus:outline-none"
             :disabled="isDisabled"
             @click="nextStep"
           >
@@ -399,6 +399,10 @@ export default {
     color: #18404B;
   }
 
+  .text-bouton {
+    color: #407F7F;
+}
+
   .border-gilbert {
     border: 2px solid #407f7f;
   }
@@ -452,6 +456,7 @@ export default {
 
   .text-card-title {
     font-size: 28px!important;
+    line-height: 1.2;
   }
 
   @media (max-width: 768px) {

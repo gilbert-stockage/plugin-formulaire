@@ -24,7 +24,7 @@
     <div class="flex flex-col justify-between h-full">
       <h2
         v-if="content.title"
-        class="text-card-title font-medium mb-2"
+        class="text-card-title font-medium mb-4 mt-4"
         v-html="content.title"
       />
       <p

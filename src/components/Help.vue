@@ -1,7 +1,7 @@
 <template>
   <div class="Plugin-Gilbert-Help mx-auto">
     <div
-      class="grid grid-col-1 md:grid-cols-2 gap-2"
+      class="grid grid-col-1 md:grid-cols-2 gap-6"
     >
       <Card
         v-for="item, itemIndex in options"
