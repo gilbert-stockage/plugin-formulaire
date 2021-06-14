@@ -430,7 +430,7 @@ export default {
     font-size: 40px;
     padding-bottom: 20px;
     color: #407F7F;
-    font-family: Open Sans,sans-serif;
+    font-family: Poppins,sans-serif;
   }
 
   @media (max-width: 768px) {
@@ -466,7 +466,7 @@ export default {
   .text-card-title {
     font-size: 28px!important;
     line-height: 1.2;
-    font-family: Open Sans,sans-serif;
+    font-family: Poppins,sans-serif;
   }
 
   @media (max-width: 768px) {

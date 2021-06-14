@@ -30,7 +30,7 @@
       <p
         v-if="content.description"
         class="text-base text-gray-700 flex-grow"
-        :class="content.type === 'short' ? 'text-center' : 'text-left'"
+        :class="content.type === 'short' ? 'text-left' : 'text-left'"
         v-html="content.description"
       />
       <slot
