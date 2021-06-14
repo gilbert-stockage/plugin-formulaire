@@ -328,7 +328,7 @@ export default {
       })
 
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', 'https://gilbert-hubspot-api.herokuapp.com/createOrUpdate', true)
+      xhr.open('POST', 'https://gilbert-hubspot-server.herokuapp.com/createOrUpdate', true)
       xhr.setRequestHeader("Content-Type", "application/json");
       xhr.send(JSON.stringify({
         properties: data.properties,
