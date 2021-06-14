@@ -14,7 +14,7 @@
     </div>
     <header
       v-if="content.imageSrc"
-      class="mb-4"
+      class=""
     >
       <img
         :src="getImageSrc(content.imageSrc)"
