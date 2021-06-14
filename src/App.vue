@@ -345,7 +345,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
   .Plugin-Gilbert-Main {
-    font-family: 'Poppins', sans-serif;
+    font-family: Open Sans,sans-serif;
     line-height: 1.42;
     color: #18404B;
   }
@@ -430,6 +430,7 @@ export default {
     font-size: 40px;
     padding-bottom: 20px;
     color: #407F7F;
+    font-family: Open Sans,sans-serif;
   }
 
   @media (max-width: 768px) {
@@ -443,8 +444,13 @@ export default {
     line-height: 1.2;
     font-weight: 400;
   }
+
   .text-reassurance {
     font-size: 16px!important;
+  }
+
+  .text-price {
+    font-size: 24px!important;
   }
 
   .text-base-lg {
@@ -460,6 +466,7 @@ export default {
   .text-card-title {
     font-size: 28px!important;
     line-height: 1.2;
+    font-family: Open Sans,sans-serif;
   }
 
   @media (max-width: 768px) {
