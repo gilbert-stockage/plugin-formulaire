@@ -434,7 +434,7 @@ export default {
     font-weight: 400;
   }
   .text-reassurance {
-    font-size: 16px!important;
+    font-size: 14px!important;
   }
 
   .text-base-lg {
