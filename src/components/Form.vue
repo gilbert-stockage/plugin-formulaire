@@ -11,7 +11,7 @@
           <h2 class="font-semibold mb-2">
             {{ comment.title }}
           </h2>
-          <p class="text-sm">
+          <p class="text-sm text-open">
             {{ comment.description }}
           </p>
         </div>

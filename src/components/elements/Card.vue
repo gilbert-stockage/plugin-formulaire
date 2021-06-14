@@ -48,7 +48,7 @@
           :class="{ 'w-full': !content.footer.button }"
         >
           <p
-            class="font-semibold whitespace-nowrap text-base-lg mb-0"
+            class="font-medium whitespace-nowrap text-base-lg mb-0"
             v-html="content.footer.price"
             :class="{ 'text-card-title': !content.footer.button }"
           />

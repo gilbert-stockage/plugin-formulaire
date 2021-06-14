@@ -62,7 +62,7 @@
         <div class="col-span-2 flex justify-end">
           <button
             v-if="!isLoading"
-            class="btn btn-gilbert text-gilbert lg:text-lg px-2 py-1 md:py-2 md:px-8 rounded text-white focus:outline-none"
+            class="btn btn-gilbert lg:text-lg px-2 py-1 md:py-2 md:px-8 rounded text-white focus:outline-none"
             :disabled="isDisabled"
             @click="nextStep"
           >
