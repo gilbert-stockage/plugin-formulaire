@@ -47,7 +47,7 @@ export default {
         pastileSrc: 'easiest',
         imageSrc: 'transport_floor',
         tag: "Collecte à l'étage",
-        title: "J’aimerais que l’on vienne chercher mes affaires chez moi, à l’étage",
+        title: "J’aimerais que l’on collecte mes affaires chez moi, à l’étage",
       }, {
         type: 'short',
         id: 'transport_downstairs',

@@ -445,7 +445,6 @@ export default {
   }
   .text-reassurance {
     font-size: 16px!important;
-    line-height: 1.2;
   }
 
   .text-base-lg {

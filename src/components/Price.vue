@@ -48,7 +48,7 @@
         </p>
       </div>
       <div>
-        <p class="font-semibold" style="color:#18404B;">
+        <p class="font-semibold mb-1" style="color:#18404B;">
           Vos affaires en toute sécurité :
         </p>
         <p

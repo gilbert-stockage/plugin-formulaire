@@ -46,7 +46,7 @@
           alt="un doute sur votre espace"
           class="w-16 md:mr-4"
         >
-        <p class="text-reassurance text-center md:text-left">
+        <p class="text-reassurance text-open text-center md:text-left">
           <span class="font-semibold">Vous avez un doute sur l’espace dont vous avez besoin ? </span>
           <span>Pas de problème : nous réduirons
             automatiquement votre coût mensuel de stockage si vous avez besoin de moins d’espace.</span>

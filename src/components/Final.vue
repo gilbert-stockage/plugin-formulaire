@@ -19,7 +19,7 @@
       </div>
     </div>
     <div
-      class="flex items-center mx-auto text-gilbert bg-gilbert-light px-4 py-3 rounded-lg"
+      class="flex items-center mx-auto text-gilbert text-open bg-gilbert-light px-4 py-3 rounded-lg"
       style="max-width: 970px;"
     >
       <p class="text-base">
@@ -53,7 +53,7 @@ export default {
       if (newForm.helpNeeded) {
         if (newForm.helpNeeded.value === true) {
           newForm.helpNeeded.title = 'Emballage et manutention'
-          newForm.helpNeeded.description = '✔️ Démontage et/ou remontage des meubles<br>✔️  Emballages illimités<br>✔️  Fournitures incluses<br>✔️  Vous ne payez que ce que vous consommez'
+          newForm.helpNeeded.description = '✔️ Démontage et/ou remontage des meubles<br>✔️  Emballages illimités<br>✔️  Fournitures incluses'
           newForm.helpNeeded.footer.price = '29€/heure'
           newForm.helpNeeded.footer.priceDescription = 'Par déménageur'
           model.push(newForm.helpNeeded)

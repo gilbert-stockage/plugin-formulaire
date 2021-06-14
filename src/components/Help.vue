@@ -27,7 +27,7 @@ export default {
         type: 'short',
         id:'help_true',
         value: true,
-        description: 'Nos déménageurs effectuent les tâches demandées  (emballage, démontage,  protection, remontage...)',
+        description: 'Nos déménageurs effectuent les tâches demandées  (emballage, démontage,  protection, remontage...) <br>',
         footer: {
           button: true
         },
@@ -37,7 +37,7 @@ export default {
         type: 'short',
         id:'help_false',
         value: false,
-        description: 'Emballez vos affaires et notre équipe vous retrouve pour  vous aider à les charger  dans notre camion.',
+        description: 'Emballez vos affaires et notre équipe vous retrouve pour  vous aider à les charger  dans notre camion. <br>',
         footer: {
           button: true
         },
