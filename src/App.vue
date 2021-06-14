@@ -433,6 +433,9 @@ export default {
     line-height: 1.42;
     font-weight: 400;
   }
+  .text-reassurance {
+    font-size: 16px!important;
+  }
 
   .text-base-lg {
     font-size: 20px!important;
