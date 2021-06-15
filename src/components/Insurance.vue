@@ -3,11 +3,6 @@
     <header>
       <p class="text-center font-semibold text-base text-gilbert mb-8 mx-4 md:mx-0">
         Vos biens sont assurés par notre partenaire Axa.
-      <img
-          :src="getImageSrc('axa')"
-          alt="AXA"
-          class=""
-        >
       </p>
     </header>
     <div class="w-full flex items-center justify-center">
