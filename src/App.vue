@@ -28,7 +28,7 @@
             {{ getCurrentStepTitle }}
           </header>
           <div
-            class="Step--content w-full flex items-center justify-between flex-grow mb-8"
+            class="Step--content w-full flex items-center justify-between flex-grow mb-16"
             style="height: calc(100% - 100px)"
           >
             <component
@@ -471,7 +471,7 @@ export default {
   }
 
   .text-price {
-    font-size: 24px!important;
+    font-size: 22px!important;
     font-weight: 600;
   }
 
