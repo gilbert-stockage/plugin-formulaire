@@ -459,6 +459,15 @@ export default {
   }
 
   @media (max-width: 768px) {
+    .reassurance-mobile-big {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+   }
+  }
+
+  @media (max-width: 768px) {
     .prix-mobile {
     max-width: 360px;
    }
@@ -466,7 +475,7 @@ export default {
 
   @media (max-width: 768px) {
     .cache-mobile {
-    display: none;
+    display: none !important;
    }
   }
 

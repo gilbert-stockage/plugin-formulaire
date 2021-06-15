@@ -5,7 +5,7 @@
         <img
           :src="getImageSrc(getPriceModel.imageSrc)"
           alt="tarif"
-          style="max-width: 350px;"
+          style="max-width: 340px;"
         >
       </div>
       <div

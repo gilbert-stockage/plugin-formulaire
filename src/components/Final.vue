@@ -19,7 +19,7 @@
       </div>
     </div>
     <div
-      class="flex items-center mx-auto reassurance-mobile text-gilbert text-open bg-gilbert-light px-4 py-3 rounded-lg"
+      class="flex items-center mx-auto reassurance-mobile-big text-gilbert text-open bg-gilbert-light px-4 py-3 rounded-lg"
       style="max-width: 970px;"
     >
       <p class="text-base">
