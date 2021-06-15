@@ -2,7 +2,7 @@
   <div class="Plugin-Gilbert-Insurance mx-auto">
     <header>
       <p class="text-center font-semibold text-base text-gilbert mb-8 mx-4 md:mx-0">
-        Vos biens sont assurés par notre partenaire Axa.
+        Vos biens sont assurés par notre partenaire Axa. <img src="https://gilbert.paris/wp-content/uploads/2021/06/axa.jpg">
       </p>
     </header>
     <div class="w-full flex items-center justify-center">
