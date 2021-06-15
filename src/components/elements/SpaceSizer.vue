@@ -5,7 +5,7 @@
         Indiquez la surface en ㎡ que vous comptez déménager ou mettre en stockage :
       </h2>
       <p class="text-base">
-        Votre surface est de :
+        La surface de votre logement est de :
         <span class="font-semibold">
           {{ volume }} ㎡
         </span>
