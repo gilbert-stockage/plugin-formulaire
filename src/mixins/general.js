@@ -97,7 +97,7 @@ const General = {
       let arr = Object.keys(this.getPrices).map(x => parseFloat(x)).sort(function (a, b) { return a - b; })
       let vol;
       if (type === 'size') {
-        vol = parseFloat(volume) / 5
+        vol = parseFloat(volume) / 4
       } else if (type === 'step') {
         vol = volume
       }
