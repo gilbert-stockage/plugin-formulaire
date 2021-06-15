@@ -2,7 +2,7 @@
   <div class="Plugin-Gilbert-Form mx-auto w-full">
     <div class="grid grid-col-1 md:grid-cols-7 gap-y-4 md:gap-4 w-full px-4">
       <div class="col-span-2 order-2 md:order-1">
-        <div class="bg-gilbert-light border-gilbert-light p-6 rounded-lg">
+        <div class="bg-gilbert-light border-gilbert-light p-6 rounded-lg cache-mobile">
           <img
             src="https://gilbert.paris/wp-content/uploads/2021/05/gilbert-paris-.png.webp"
             alt="Stella"

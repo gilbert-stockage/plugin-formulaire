@@ -464,6 +464,12 @@ export default {
    }
   }
 
+  @media (max-width: 768px) {
+    .cache-mobile {
+    display: none;
+   }
+  }
+
   .text-price {
     font-size: 24px!important;
     font-weight: 600;
