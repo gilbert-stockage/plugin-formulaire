@@ -115,8 +115,9 @@ const General = {
     },
     validateEmail(email) {
       if (!email) { return false }
-      const pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
-      return pattern.test(String(email).toLowerCase())
+      // const pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+      // return pattern.test(String(email).toLowerCase())
+      return email.length > 1
     }
   }
 }
