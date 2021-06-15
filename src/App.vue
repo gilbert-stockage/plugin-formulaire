@@ -21,7 +21,7 @@
       >
         <div
           v-if="currentStep === stepIndex + 1"
-          class="CurrentStep flex-grow w-full overflow-hidden z-40 mb-16 md:mb-16"
+          class="CurrentStep flex-grow w-full overflow-hidden z-40 mb-16 md:mb-8"
           :class="computedTransition"
         >
           <header class="text-titre text-gilbert mx-2 mt-4 text-center font-semibold">
@@ -460,7 +460,7 @@ export default {
 
   @media (max-width: 768px) {
     .prix-mobile {
-    max-width: 350px;
+    max-width: 360px;
    }
   }
 
