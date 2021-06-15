@@ -49,7 +49,7 @@ export default {
         model: {
           step: 3
         },
-        description: 'En indiquant la taille de mon logement.',
+        description: 'En indiquant la taille de mon logement',
         footer: {
           button: true
         },

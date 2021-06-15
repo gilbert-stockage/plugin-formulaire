@@ -21,7 +21,7 @@
       >
         <div
           v-if="currentStep === stepIndex + 1"
-          class="CurrentStep flex-grow w-full overflow-hidden z-40 mb-32 md:mb-16"
+          class="CurrentStep flex-grow w-full overflow-hidden z-40 mb-16 md:mb-16"
           :class="computedTransition"
         >
           <header class="text-titre text-gilbert mx-2 mt-4 text-center font-semibold">
@@ -447,6 +447,21 @@ export default {
 
   .text-reassurance {
     font-size: 16px!important;
+  }
+
+  @media (max-width: 768px) {
+    .reassurance-mobile {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+   }
+  }
+
+  @media (max-width: 768px) {
+    .prix-mobile {
+    max-width: 350px;
+   }
   }
 
   .text-price {

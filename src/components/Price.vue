@@ -1,6 +1,6 @@
 <template>
   <div class="Price px-2 lg:px-0 text-base">
-    <div class="Stepper-Price-Card flex flex-col justify-start relative border-gilbert rounded-md p-4 text-center mb-8 text-gilbert">
+    <div class="Stepper-Price-Card flex flex-col justify-start relative border-gilbert rounded-md p-4 text-center mb-8 text-gilbert prix-mobile">
       <div class="mx-auto mb-4">
         <img
           :src="getImageSrc(getPriceModel.imageSrc)"

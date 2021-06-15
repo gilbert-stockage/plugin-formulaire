@@ -19,7 +19,7 @@
       </div>
     </div>
     <div
-      class="flex items-center mx-auto text-gilbert text-open bg-gilbert-light px-4 py-3 rounded-lg"
+      class="flex items-center mx-auto reassurance-mobile text-gilbert text-open bg-gilbert-light px-4 py-3 rounded-lg"
       style="max-width: 970px;"
     >
       <p class="text-base">
@@ -62,13 +62,13 @@ export default {
       if (newForm.transport) {
         switch (newForm.transport.id) {
           case 'transport_floor':
-            newForm.transport.title = 'Collecte à l\'étage et transport'
+            newForm.transport.title = 'Collecte à domicile'
             break;
           case 'transport_downstairs':
             newForm.transport.title = 'Collecte en bas de l\'immeuble'
             break;
           case 'transport_storage':
-            newForm.transport.title = 'Vous déposez vos affaires vous-même en stockage'
+            newForm.transport.title = 'Dépôt à l\'entrepôt'
             break;
           default:
             break;

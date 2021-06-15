@@ -40,7 +40,7 @@
       />
       <div
         v-if="content.footer"
-        class="flex flex-col lg:flex-row items-center justify-between mt-4"
+        class="flex flex-col lg:flex-row items-center justify-between mt-6"
       >
         <div
           v-if="content.footer.price"
