@@ -87,7 +87,7 @@ export default {
     step: 0,
     options: [{
       id: 'placard',
-      description: 'Idéal si vous n’avez que quelques affaires à stocker. Parfait pour quelques cartons ou valises.<br><br>Espace de stockage : 0,5m3',
+      description: 'Idéal si vous n’avez que quelques affaires à stocker. Parfait pour quelques cartons ou valises.<br><br>Espace de stockage : 0,5m³',
       footer: {
         button: true,
         price: '29€/mois',
