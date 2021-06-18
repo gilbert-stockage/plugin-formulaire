@@ -87,7 +87,7 @@ export default {
     step: 0,
     options: [{
       id: 'placard',
-      description: 'Idéal si vous n’avez que quelques affaires à stocker. Parfait pour quelques cartons ou valises.<br><br>Espace de stockage : 0,5m3 Dimensions : 0,5 x 1 x 1m',
+      description: 'Idéal si vous n’avez que quelques affaires à stocker. Parfait pour quelques cartons ou valises.<br><br>Espace de stockage : 0,5m3',
       footer: {
         button: true,
         price: '29€/mois',
@@ -98,7 +98,7 @@ export default {
       volume: 0.5
     },{
       id: 'cave',
-      description: 'Convient pour des meubles de petite taille et jusqu’à 25 cartons standards. Parfait  pour libérer une pièce !<br><br>Espace de stockage : 1,5 m³ Dimensions : 1 x 1 x 1,5m',
+      description: 'Convient pour des meubles de petite taille et jusqu’à 25 cartons standards. Parfait  pour libérer une pièce !<br><br>Espace de stockage : 1,5 m³',
       footer: {
         button: true,
         price: '43€/mois',
@@ -109,7 +109,7 @@ export default {
       volume: 1.5
     },{
       id: 'studio',
-      description: 'Convient pour des meubles de taille moyenne telles qu’une table, des chaises, un réfrigérateur, etc.<br><br>Espace de stockage : 3 m³ Dimensions : 1 x 1 x 3m',
+      description: 'Convient pour des meubles de taille moyenne telles qu’une table, des chaises, un réfrigérateur, etc.<br><br>Espace de stockage : 3 m³',
       footer: {
         button: true,
         price: '62€/mois',
@@ -120,7 +120,7 @@ export default {
       volume: 3
     }, {
       id: '2_pieces',
-      description: 'Stockez du mobilier de grande taille : canapé, vélo, armoire, meuble TV, des cartons, etc.<br><br>Espace de stockage : 6 m³<br>Dimensions : 1 x 2 x 3m',
+      description: 'Stockez du mobilier de grande taille : canapé, vélo, armoire, meuble TV, des cartons, etc.<br><br>Espace de stockage : 6 m³',
       footer: {
         button: true,
         price: '104€/mois',
@@ -131,7 +131,7 @@ export default {
       volume: 6
     },{
       id: '3_pieces',
-      description: 'Idéal pour stocker vos meubles et de nombreux cartons en vue de votre déménagement.<br><br>Espace de stockage : 9 m³<br>Dimensions : 1 x 3 x 3m',
+      description: 'Idéal pour stocker vos meubles et de nombreux cartons en vue de votre déménagement.<br><br>Espace de stockage : 9 m³',
       footer: {
         button: true,
         price: '139€/mois',
