@@ -90,8 +90,8 @@ export default {
       description: 'Idéal si vous n’avez que quelques affaires à stocker. Parfait pour quelques cartons ou valises.<br><br>Espace de stockage : 0,5m³',
       footer: {
         button: true,
-        price: '34€/mois',
-        priceValue: 34,
+        price: '29€/mois',
+        priceValue: 29,
       },
       imageSrc: 'space_placard',
       title: 'Placard',
@@ -101,8 +101,8 @@ export default {
       description: 'Convient pour des meubles de petite taille et jusqu’à 25 cartons standards. Parfait  pour libérer une pièce !<br><br>Espace de stockage : 1,5 m³',
       footer: {
         button: true,
-        price: '47€/mois',
-        priceValue: 47,
+        price: '43€/mois',
+        priceValue: 43,
       },
       imageSrc: 'space_cave',
       title: 'Cave',
@@ -112,8 +112,8 @@ export default {
       description: 'Convient pour des meubles de taille moyenne telles qu’une table, des chaises, un réfrigérateur, etc.<br><br>Espace de stockage : 3 m³',
       footer: {
         button: true,
-        price: '65€/mois',
-        priceValue: 65,
+        price: '64€/mois',
+        priceValue: 64,
       },
       imageSrc: 'space_studio',
       title: 'Studio',
