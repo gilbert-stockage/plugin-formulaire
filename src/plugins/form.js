@@ -32,7 +32,7 @@ let formModel = {
       imgSrc: 'table',
       name: 'Table',
       origin: SALON_ORIGIN,
-      volume: 1.3
+      volume: 1.0
     },
     chaise: {
       imgSrc: 'chaise',
@@ -58,19 +58,19 @@ let formModel = {
       imgSrc: 'frigo_haut',
       name: 'Frigo haut',
       origin: CUISINE_ORIGIN,
-      volume: 0.4
+      volume: 1.2
     },
     frigo_bas: {
       imgSrc: 'frigo_bas',
       name: 'Frigo bas',
       origin: CUISINE_ORIGIN,
-      volume: 0.24
+      volume: 0.7
     },
     four: {
       imgSrc: 'four',
       name: 'Four',
       origin: CUISINE_ORIGIN,
-      volume: 0.12
+      volume: 0.4
     },
     lave_vaisselle: {
       imgSrc: 'lave_vaisselle',
@@ -108,13 +108,13 @@ let formModel = {
       imgSrc: 'armoire',
       name: 'Armoire',
       origin: CHAMBRE_ORIGIN,
-      volume: 0.8
+      volume: 1.2
     },
     commode: {
       imgSrc: 'commode',
       name: 'Commode',
       origin: CHAMBRE_ORIGIN,
-      volume: 0.5
+      volume: 0.7
     },
     bureau: {
       imgSrc: 'bureau',
