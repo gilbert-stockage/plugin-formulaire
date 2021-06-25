@@ -1,7 +1,7 @@
 <template>
   <div class="Plugin-Gilbert-Form mx-auto w-full">
     <div class="grid grid-col-1 md:grid-cols-7 gap-y-4 md:gap-4 w-full px-4">
-      <div class="col-span-2 order-2 md:order-1">
+      <div class="col-span-2 order-2 md:order-1" style="display:none;">
         <div class="bg-gilbert-light border-gilbert-light p-6 rounded-lg cache-mobile">
           <img
             src="https://gilbert.paris/wp-content/uploads/2021/05/gilbert-paris-.png.webp"
@@ -56,10 +56,10 @@
     </div>
           <div
         class="flex flex-col md:flex-row items-center text-gilbert bg-gilbert-light mx-4 md:mx-auto p-4 rounded-lg"
-        style="max-width: 850px;"
+        style="margin-top:20px;"
       >
         <p class="text-reassurance text-open text-center md:text-left">
-          <span class="font-semibold">Pourquoi dois-je laisser mon n° de téléphone ? </span>
+          <span class="font-semibold">Pourquoi dois-je laisser mon n° de téléphone ?</span><br>
           <span>2 clients sur 3 surestiment le volume de stockage dont ils ont besoin. Vous appeler nous permet de vérifier si c'est votre cas et d'adapter votre devis de stockage afin de vous proposer un devis le plus proche possible de la réalité et de vos besoins.</span>
         </p>
       </div>
