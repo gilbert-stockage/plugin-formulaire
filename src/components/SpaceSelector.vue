@@ -112,8 +112,8 @@ export default {
       description: 'Convient pour des meubles de taille moyenne telles qu’une table, des chaises, un réfrigérateur, etc.<br><br>Espace de stockage : 3 m³',
       footer: {
         button: true,
-        price: '64€/mois',
-        priceValue: 64,
+        price: '62€/mois',
+        priceValue: 62,
       },
       imageSrc: 'space_studio',
       title: 'Studio',

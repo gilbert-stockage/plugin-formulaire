@@ -160,7 +160,7 @@ let prices = {
     demenageurs: 2,
     transport_floor: 164,
     transport_downstairs: 98,
-    transport_storage: 64,
+    transport_storage: 62,
   },
   '6': {
     demenageurs: 2,
