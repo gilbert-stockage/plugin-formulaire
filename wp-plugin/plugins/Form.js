@@ -151,19 +151,19 @@ function FormPlugin() {
           demenageurs: 1,
           transport_floor: 86,
           transport_downstairs: 71,
-          transport_storage: 29,
+          transport_storage: 34,
         },
         '1.5': {
           demenageurs: 2,
           transport_floor: 140,
           transport_downstairs: 84,
-          transport_storage: 43,
+          transport_storage: 47,
         },
         '3': {
           demenageurs: 2,
           transport_floor: 164,
           transport_downstairs: 98,
-          transport_storage: 62,
+          transport_storage: 65,
         },
         '6': {
           demenageurs: 2,

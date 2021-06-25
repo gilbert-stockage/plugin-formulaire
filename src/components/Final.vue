@@ -54,7 +54,7 @@ export default {
         if (newForm.helpNeeded.value === true) {
           newForm.helpNeeded.title = 'Emballage et manutention'
           newForm.helpNeeded.description = '✔️ Démontage et/ou remontage des meubles<br>✔️  Emballages illimités<br>✔️  Fournitures incluses'
-          newForm.helpNeeded.footer.price = '29€/heure'
+          newForm.helpNeeded.footer.price = '45€/heure'
           newForm.helpNeeded.footer.priceDescription = 'Par déménageur'
           model.push(newForm.helpNeeded)
         }
