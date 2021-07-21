@@ -36,7 +36,10 @@
       </p>
   </div>
 </template>
-
+<!-- Event snippet for Nouveau devis en ligne conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-697088551/UioRCKvb-NkCEKf0sswC'});
+</script>
 <script>
 import Card from '@/components/elements/Card'
 import General from '@/mixins/general'
