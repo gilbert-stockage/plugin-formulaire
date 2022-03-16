@@ -59,9 +59,8 @@
         style="margin-top:20px;"
       >
         <p class="text-reassurance text-open text-center md:text-left">
-          <span class="font-semibold">✔️ L’engagement Gilbert :</span><span><br>Vos données personnelles ne seront en aucun cas  communiquées à des tiers. Elles ne nous servent qu’à  établir votre devis personnalisé et à vous le transmettre.<br></span>
           <span class="font-semibold"> ❔ Pourquoi dois-je laisser mon n° de téléphone ?</span><br>
-          <span>2 clients sur 3 surestiment le volume de stockage dont ils ont besoin. Vous appeler nous permet de vérifier si c'est votre cas et d'adapter votre devis de stockage afin de vous proposer un devis le plus proche possible de la réalité et de vos besoins.</span>
+          <span>2 clients sur 3 surestiment le volume de stockage dont ils ont besoin. Vous appeler permet de vérifier si c'est votre cas et d'adapter votre devis de stockage afin de vous proposer un devis le plus proche possible de la réalité et de vos besoins. A ces fins, vos informations peuvent être transmises à un tiers.</span>
         </p>
       </div>
   </div>
